@@ -28,4 +28,6 @@
     - Case Converter project ([github](https://github.com/inna1305/Case-Converter))
     - Flashcards project (in progress)
 - Javarush course ([javarush.ru](https://javarush.ru/)) 24 lvl
-
+## Languages
+- Russian (native)
+- English (A2)
