@@ -3,7 +3,7 @@
 ## Contacts
 - **E-mail:** inning.work@gmail.com
 - **Telegram:** [@turova_i](https://t.me/turova_i)
-- **GitHub:** inna1305
+- **GitHub:** [inna1305](https://github.com/inna1305)
 ## Skills
 - HTML5
 - CSS3
