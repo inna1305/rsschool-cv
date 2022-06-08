@@ -3,4 +3,12 @@ body {
   background-color: aqua;
 }
 
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */
