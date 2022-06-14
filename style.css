@@ -1,0 +1,230 @@
+body {
+  font-family: 'Montserrat', 'Avant Garde', sans-serif;
+  margin: 0;
+  color: black;
+  font-size: 19px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+  color: #a0c5c7;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 80px;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 30px;
+  margin: 0;
+}
+
+/*---------header----------*/
+.navigation {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: #182d2b;
+  /*box-shadow: 0 8px 8px rgba(21, 255, 216, 0.454);*/
+}
+
+.nav-list {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-list a {
+  color: #7c8eac;
+  font-weight: 600;
+}
+
+.nav-list a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.nav-list a:active {
+  color: #fafafa;
+  border-bottom: solid 3px #a7e09e;
+}
+
+/*-------------main-----------*/
+.my_photo {
+  padding-top: 10px;
+  display: block;
+}
+
+.text-element {
+  line-height: 130%;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.visit-card {
+  margin-top: 0px;
+  height: 100%;
+  position: fixed;
+  background-color: #182d2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-column {
+  margin-left: 320px;
+}
+
+h1 {
+  height: 300px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about {
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 600;
+  color: black;
+  background: -webkit-gradient(linear, left top, right top, from(#9797ff), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to right, #9797ff, rgba(255, 255, 255, 0));
+}
+
+.text {
+  margin: 19px 0;
+}
+
+code {
+  font-size: 14px;
+}
+
+.code-container {
+  background: -webkit-gradient(linear, left top, right top, from(#d8d8d8), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to right, #d8d8d8, rgba(255, 255, 255, 0));
+  margin: 19px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sublist > ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin: 15px 20px 15px;
+}
+
+h2 span {
+  display: block;
+  position: relative;
+  top: -80px;
+  visibility: hidden;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #a0c5c7;
+  padding: 10px;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-size: 1rem;
+  color: #a0c5c7;
+}
+
+.contacts a {
+  color: #a0c5c7;
+}
+
+footer > div {
+  height: 80px;
+  background-color: #244340;
+}
+
+.rs-logo {
+  width: 150px;
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+container-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.github {
+  width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
