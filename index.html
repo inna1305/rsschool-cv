@@ -15,107 +15,122 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <nav class="navigation">
-                <ul>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Code Example</a></li>
-                    <li><a href="#">Contacts</a></li>
+    <header>
+        <div class="navigation">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#code">Code Example</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>
-            <div class="my_photo">
-                <img src="images\IMG_20220607_191020.jpg" alt="photo" width="200">
-            </div>
-            <h1>
-                <p>Turova Inna</p>
-                <p>Junior Frontend Developer</p>
-            </h1>
-            <section>
-                <div class="title">Contacts</div>
-                <span class="material-symbols-outlined">
-                    alternate_email
-                </span>
-                <span class="contact"><a href="mailto:inning.work@gmail.com">inning.work@gmail.com</a></span>
-            </section>
-            <section>
-                <h2>About me</h2>
-                <p class="text">Hi, I'm Inna, and I dream of becoming a cool frontend developer! I love learning and
-                    overcoming difficulties. I was an artist, I did a little design until I found myself in programming
-                </p>
-            </section>
-            <section>
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3/SCSS, BEM, </li>
-                    <li>JavaScript</li>
-                    <li>Java (syntax, basic knowledge core, collections)</li>
-                    <li>Figma, Adobe Illustrator, Photoshop</li>
-                    <li>Git</li>
-                </ul>
-            </section>
-            <div class="background">
-                <section>
-                    <h2>Languages</h2>
-                    <ul>
-                        <li>Russian (native)</li>
-                        <li>English (A2)</li>
-                    </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="visit-card">
+                <img src="images\IMG_20210501_150449.jpg" alt="my photo" width="300" height="300">
+                <section class="contacts">
+                    <div class="title">Contacts</div>
+                    <div class="mail">
+                        <span class="material-symbols-outlined">
+                            alternate_email
+                        </span>
+                        <span class="contact"><a href="mailto:inning.work@gmail.com">inning.work@gmail.com</a></span>
+                    </div>
+                    <div>Telegram: @i_turova</div>
+                    <div>GitHub: inna1305</div>
                 </section>
             </div>
-            <section>
-                <h2>Courses</h2>
-                <ul>
-                    <li>Web development for beginners (HTML, CSS) by <a
-                            href="https://stepik.org/course/38218/syllabus">stepik.org</a>:
+            <div class="main-column">
+                <h1>
+                    <p>Turova Inna</p>
+                    <p class="subtitle">Junior Frontend Developer</p>
+                </h1>
+                <h2 class="anchor about"><span id="about"></span>About me</h2>
+                <p class="text text-element">Hi, I'm Inna, and I dream of becoming a cool frontend developer! I love
+                    learning and
+                    overcoming difficulties. I was an artist, I did a little design until I found myself in
+                    programming.
+                </p>
+                <section>
+                    <h2 class="anchor">
+                        <span id="skills"></span>Skills</h2>
+                    <ul>
+                        <li class="text-element">HTML5</li>
+                        <li class="text-element">CSS3/SCSS, BEM, </li>
+                        <li class="text-element">JavaScript</li>
+                        <li class="text-element">Java (syntax, basic knowledge core, collections)
+                        </li>
+                        <li class="text-element">Figma, Adobe Illustrator, Photoshop</li>
+                        <li class="text-element">Git</li>
+                    </ul>
+                </section>
+                <div class="background">
+                    <section>
+                        <h2>Languages</h2>
                         <ul>
-                            <li>HTML & CSS</li>
-                            <li>tables, forms</li>
-                            <li>Chromium DevTools</li>
-                            <li>units CSS</li>
-                            <li>positioning</li>
-                            <li>flex, grid</li>
-                            <li>pseudo-classes</li>
-                            <li>media queries, adaptive layout</li>
-                            <li>Bootstrap basic</li>
+                            <li class="text-element">Russian (native)</li>
+                            <li class="text-element">English (A2)</li>
                         </ul>
-                    </li>
-                    <li>"CSS in Depth", Grant, Keith J. (in progress)</li>
-                    <li>JetBrainsAcademy Track: Frontend Developer:
-                        <ul>
-                            <li>Case Converter project <a href="https://github.com/inna1305/Case-Converter">github</a></li>
-                            <li><a href="https://inna1305.github.io/Flashcards/">Flashcards project</a></li>
-                            <li>Virtual Piano (in progress)</li>
-                        </ul>
-                    </li>
-                    <li>learn.javascript.ru</li>
-                    <li>JavaRush course (24 lvl)</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Code Example</h2>
-                <code>
-                        let buttonProperCase = document.getElementById("proper-case");<br>
-                        buttonProperCase.addEventListener("click", function () { <br>
-                        let arrayFromUsersEnter = element.value.split(" ");<br>
-                        let properCaseArray = []; <br>
-                        for (let word of arrayFromUsersEnter) { <br>
-                        let firstLetter = word.charAt(0); <br>
-                        let firstLetterUpper = firstLetter.replace(firstLetter, firstLetter.toUpperCase());<br>
-                        properCaseArray.push(firstLetterUpper + word.substr(1));<br>
-                        element.value = properCaseArray.join(" ");<br>
-                        });
-                </code>
-            </section>
-
-        </main>
-        <footer>
-        </footer>
+                    </section>
+                </div>
+                <section>
+                    <h2 class="anchor"><span id="courses"></span>Courses</h2>
+                    <ul>
+                        <li class="sublist">Web development for beginners (HTML, CSS) by <a
+                                href="https://stepik.org/course/38218/syllabus">stepik.org</a>:
+                            <ul>
+                                <li>HTML & CSS</li>
+                                <li>tables, forms</li>
+                                <li>Chromium DevTools</li>
+                                <li>units CSS</li>
+                                <li>positioning</li>
+                                <li>flex, grid</li>
+                                <li>pseudo-classes</li>
+                                <li>media queries, adaptive layout</li>
+                                <li>Bootstrap basic</li>
+                            </ul>
+                        </li>
+                        <li>"CSS in Depth", Grant, Keith J. (in progress)</li>
+                        <li class="sublist">JetBrainsAcademy Track: Frontend Developer:
+                            <ul>
+                                <li>Case Converter project <a
+                                        href="https://github.com/inna1305/Case-Converter">github</a></li>
+                                <li><a href="https://inna1305.github.io/Flashcards/">Flashcards project</a></li>
+                                <li>Virtual Piano (in progress)</li>
+                            </ul>
+                        </li>
+                        <li>learn.javascript.ru</li>
+                        <li>JavaRush course (24 lvl)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="anchor"><span id="code"></span>Code Example</h2>
+                    <div class="code-container">
+                        <code>
+                            let buttonProperCase = document.getElementById("proper-case");<br>
+                            buttonProperCase.addEventListener("click", function () { <br>
+                            let arrayFromUsersEnter = element.value.split(" ");<br>
+                            let properCaseArray = []; <br>
+                            for (let word of arrayFromUsersEnter) { <br>
+                            let firstLetter = word.charAt(0); <br>
+                            let firstLetterUpper = firstLetter.replace(firstLetter, firstLetter.toUpperCase());<br>
+                            properCaseArray.push(firstLetterUpper + word.substr(1));<br>
+                            element.value = properCaseArray.join(" ");<br>
+                            });
+                        </code>
+                    </div>
+                </section>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <a href="https://rs.school/js/"><img src="images/rs_school_js.svg" class="rs-logo"></a>
+            <a href="https://github.com/inna1305"><img src="images\GitHub_Logo_White.png" class="github"></a>
+        </div>
+    </footer>
+    </div>
     </div>
 </body>
 
