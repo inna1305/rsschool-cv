@@ -214,14 +214,17 @@ footer > div {
 
 .rs-logo {
   width: 150px;
-  margin-left: 400px;
+  margin-right: 50px;
   margin-top: 10px;
 }
 
-container-footer {
+.container-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .github {
