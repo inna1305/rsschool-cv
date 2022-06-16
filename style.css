@@ -40,6 +40,7 @@ p {
 h1 {
   font-size: 50px;
   font-weight: 600;
+  margin: 0;
 }
 
 .subtitle {
@@ -100,6 +101,20 @@ h1 {
   line-height: 130%;
 }
 
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 img {
   border-radius: 5px;
 }
@@ -123,21 +138,6 @@ img {
 
 .main-column {
   margin-left: 320px;
-}
-
-h1 {
-  height: 300px;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .about {
@@ -205,6 +205,10 @@ h2 span {
 
 .contacts a {
   color: #a0c5c7;
+}
+
+.contacts h2 {
+  background: none;
 }
 
 footer > div {
