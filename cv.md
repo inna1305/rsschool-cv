@@ -29,7 +29,7 @@
 - CSS in Depth: Grant, Keith J. (in progress)
 - JetBrainsAcademy Track: Frontend Developer
     - Case Converter project ([github](https://github.com/inna1305/Case-Converter))
-    - Flashcards project ([github]((https://github.com/inna1305/Flashcards)))
+    - Flashcards project ([github](https://github.com/inna1305/Flashcards))
     - Virtual Piano ([github](https://github.com/inna1305/Virtual-Piano))
 - Javarush course ([javarush.ru](https://javarush.ru/)) 24 lvl
 ## Languages
